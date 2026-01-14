@@ -1,0 +1,15 @@
+.barra {
+  background: linear-gradient(90deg, #1b213b 0%, #0f1628 100%);
+  border-bottom: 2px solid #00b4ff;
+}
+
+.vertical-menu a:hover {
+  background-color: rgba(0, 180, 255, 0.15);
+  border-left: 4px solid #00b4ff;
+  transition: all 0.3s ease;
+}
+.metismenu i {
+  color: #00b4ff;
+  margin-right: 10px;
+}
+

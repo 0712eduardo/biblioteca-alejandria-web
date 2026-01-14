@@ -1,0 +1,92 @@
+body.auth-body-bg {
+  background-color: #f3f5f9;
+  overflow: hidden;
+}
+
+.authentication-page-content {
+  animation: fadeInUp 1.2s ease forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-logo {
+  animation: zoomIn 1.2s ease;
+}
+
+@keyframes zoomIn {
+  0% { transform: scale(0.8); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.btn-success {
+  background-color: #198754;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  transform: scale(1.05);
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding-left: 40px;
+}
+
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 8px rgba(25, 135, 84, 0.4);
+}
+
+.auth-form-group-custom {
+  position: relative;
+}
+
+.auti-custom-input-icon {
+  position: absolute;
+  top: 38px;
+  left: 10px;
+  font-size: 18px;
+  color: #198754;
+}
+
+.authentication-bg {
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  animation: fadeIn 1.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(1.02); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.authentication-bg h1 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  animation: slideDown 1.2s ease;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.authentication-bg p {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}

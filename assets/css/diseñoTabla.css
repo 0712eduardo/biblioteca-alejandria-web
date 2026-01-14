@@ -1,0 +1,453 @@
+
+body {
+    background-color: #1A1C25 !important;
+    color: white !important;
+}
+
+
+.card {
+    background-color: #1F212C !important;
+    border: 1px solid #d4af37 !important;
+    color: white !important;
+}
+
+.card-body {
+    background-color: #1F212C !important;
+    color: white !important;
+}
+
+
+.header-gold,
+.card-header.bg-warning {
+    background-color: #B8860B !important;
+    color: white !important;
+    border-bottom: 2px solid #d4af37 !important;
+}
+
+.header-gold h5,
+.header-gold i,
+.card-header.bg-warning h5 {
+    color: white !important;
+}
+
+
+.table-alejandria-gold {
+    border-collapse: collapse !important;
+    font-size: 14px;
+}
+
+.table-alejandria-gold thead {
+    background-color: #2b2b2b !important;
+    color: #f1c40f !important;
+    text-transform: uppercase;
+}
+
+.table-alejandria-gold thead th {
+    color: #f1c40f !important;
+    font-weight: bold !important;
+}
+
+.table-alejandria-gold th,
+.table-alejandria-gold td {
+    border: 1px solid #d4af37 !important;
+    padding: 10px !important;
+    background-color: #faf7ef !important;
+    color: #000 !important;
+}
+
+.table-alejandria-gold tbody tr:hover {
+    background-color: #fff5d6 !important;
+}
+
+
+.btn-accion-edit {
+    background-color: #243A73 !important;
+    border-color: #243A73 !important;
+    color: white !important;
+}
+
+.btn-accion-edit:hover {
+    background-color: #1b2d55 !important;
+}
+
+.btn-accion-delete {
+    background-color: #c0392b !important;
+    border-color: #c0392b !important;
+    color: white !important;
+}
+
+.btn-accion-delete:hover {
+    background-color: #e74c3c !important;
+}
+
+.btn-accion-edit i,
+.btn-accion-delete i {
+    color: white !important;
+}
+
+.btn-nuevo {
+    background-color: #B8860B !important;
+    color: white !important;
+    border: 1px solid #d4af37 !important;
+    font-weight: bold;
+}
+
+.btn-nuevo:hover {
+    background-color: #d4af37 !important;
+    color: #000 !important;
+}
+
+
+.badge-activo {
+    background-color: #243A73 !important;
+    color: white !important;
+}
+
+.badge-desactivo {
+    background-color: #c0392b !important;
+    color: white !important;
+}
+
+
+.modal-header.bg-light {
+    background-color: #fff8dc !important;
+    border-bottom: 1px solid #d4af37 !important;
+}
+
+.modal-content {
+    background-color: #1F212C !important;
+    border: 2px solid #d4af37 !important;
+    color: white !important;
+}
+
+.modal-footer .btn-primary {
+    background-color: #B8860B !important;
+    border-color: #d4af37 !important;
+}
+
+.modal-footer .btn-primary:hover {
+    background-color: #d4af37 !important;
+    color: #000 !important;
+}
+
+
+.dt-button {
+    border-radius: 6px !important;
+    font-weight: bold !important;
+    border: none !important;
+    margin-right: 5px !important;
+}
+
+.btn-dt-copy { background-color: #2b2b2b !important; color:white !important; }
+.btn-dt-csv { background-color: #B8860B !important; color:white !important; }
+.btn-dt-excel { background-color: #1e824c !important; color:white !important; }
+.btn-dt-pdf { background-color: #c0392b !important; color:white !important; }
+.btn-dt-print { background-color: #2b2b2b !important; color:white !important; }
+
+.dataTables_filter input {
+    background-color: #2b2b2b !important;
+    color: white !important;
+    border: 1px solid #d4af37 !important;
+}
+
+.dataTables_paginate .paginate_button {
+    background-color: #2b2b2b !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+.dataTables_paginate .paginate_button.current {
+    background-color: #B8860B !important;
+    color: black !important;
+    border: 1px solid #d4af37 !important;
+}
+
+
+#cat {
+    background: #1a1a1a !important;
+    color: white !important;
+    border: 2px solid #f1c40f !important;
+}
+
+#dtERLibro tbody tr:hover,
+#dtCategorias tbody tr:hover {
+    background-color: rgba(241, 196, 15, 0.3) !important;
+}
+
+#ACategorias .modal-body,
+#ACategorias table,
+#ACategorias table td,
+#ACategorias table th {
+    background-color: #1F212C !important;
+    color: #ffffff !important;
+    border-color: #d4af37 !important;
+}
+
+#ACategorias table a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+#ACategorias table a:hover {
+    color: #f1c40f !important;
+}
+
+#ACategorias .btn-warning {
+    background-color: #f1c40f !important;
+    color: #000 !important;
+}
+
+
+#dtERLibro tbody td,
+#dtERLibro tbody th {
+    color: #ffffff !important;
+    background-color: #1F212C !important;
+    border-color: #d4af37 !important;
+}
+
+
+#dtERLibro tbody tr:hover {
+    background-color: rgba(241, 196, 15, 0.25) !important;
+}
+
+#dtERLibro thead th {
+    color: #000 !important;
+    background-color: #f1c40f !important;
+    font-weight: bold !important;
+}
+#ACondicionLector .modal-body,
+#ACondicionLector .modal-body * {
+    color: white !important;
+}
+
+
+#dtERLectores thead th {
+    background-color: #f1c40f !important;   
+    color: #1F212C !important;              
+    font-weight: bold !important;
+}
+
+#dtERLectores tbody td {
+    background-color: #1F212C !important;  
+    color: #ffffff !important;             
+    border: 1px solid #d4af37 !important;   
+}
+
+#dtERLectores.table-striped > tbody > tr:nth-of-type(odd),
+#dtERLectores.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #1F212C !important;
+}
+
+#dtERLectores tbody tr:hover {
+    background-color: #2a2d3a !important;   
+}
+#dtERPrestamos,
+#dtERPrestamos tbody td,
+#dtERPrestamos tbody tr,
+#dtERPrestamos.table-striped tbody tr:nth-of-type(odd),
+#dtERPrestamos.table-striped tbody tr:nth-of-type(even) {
+    background-color: #1F212C !important;
+    color: white !important;
+}
+
+#dtERPrestamos tbody tr:hover {
+    background-color: rgba(241,196,15,0.25) !important;
+}
+
+#periodo_fact_texto,
+#mes_fact_modal,
+#anio_fact_modal,
+#estado_fact_modal {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    border: 2px solid #f1c40f !important;
+}
+
+#dtERFactura tbody td {
+    color: white !important;
+    background-color: #1F212C !important;
+}
+
+#dtERFactura tbody tr:hover {
+    background-color: rgba(241, 196, 15, 0.25) !important;
+}
+
+#AFacturaPeriodo .modal-content {
+    background-color: #1F212C !important;
+    border: 2px solid #d4af37 !important;
+    color: white !important;
+}
+
+#AFacturaPeriodo .modal-body {
+    background-color: #1A1C25 !important;
+}
+
+#AFacturaPeriodo select {
+    background-color: #1A1C25 !important;
+    color: white !important;
+    border: 1px solid #d4af37 !important;
+}
+
+#AFacturaPeriodo label {
+    color: white !important;
+}
+
+#AFacturaPeriodo .btn-warning {
+    background-color: #f1c40f !important;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+#dtERFactura thead {
+    background-color: #f1c40f !important;
+    color: #000 !important;
+}
+
+#dtERFactura thead th {
+    color: #000 !important;
+}
+
+.btn-primary i {
+    color: white !important;
+}
+
+
+#periodo_texto {
+    background-color: #1a1a1a !important;
+    color: white !important;
+    border: 2px solid #f1c40f !important;
+}
+
+#dtERPrestamos tbody td {
+    color: white !important;
+    background-color: #1F212C !important;
+}
+
+#dtERPrestamos tbody tr:hover {
+    background-color: rgba(241, 196, 15, 0.25) !important;
+}
+
+#dtERPrestamos thead {
+    background-color: #f1c40f !important;
+    color: #000 !important;
+}
+
+#dtERPrestamos thead th {
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+#APrestamoPeriodo .modal-content {
+    background-color: #1F212C !important;
+    border: 2px solid #d4af37 !important;
+    color: white !important;
+}
+
+#APrestamoPeriodo .modal-body {
+    background-color: #1A1C25 !important;
+}
+
+#APrestamoPeriodo select {
+    background-color: #1A1C25 !important;
+    color: white !important;
+    border: 1px solid #d4af37 !important;
+}
+
+#APrestamoPeriodo label {
+    color: white !important;
+}
+
+#APrestamoPeriodo .btn-warning {
+    background-color: #f1c40f !important;
+    color: black !important;
+    font-weight: bold;
+}
+#dtAutores {
+    color: white !important;
+}
+
+#dtAutores tbody tr {
+    color: white !important;
+}
+
+#dtAutores thead th {
+    color: black !important;
+}
+#dtAutores tbody td {
+    color: white !important;
+}
+#dtAutores td,
+#dtAutores th {
+    background-color: #1F212C !important;
+    color: white !important;
+}
+#dtAutores tbody tr:hover {
+    background-color: rgba(241, 196, 15, 0.25) !important;
+}
+
+#dtCategorias thead th,
+#dtAutores thead th {
+    background-color: #f1c40f !important;
+    color: #000 !important;
+    font-weight: bold !important;
+}
+
+#dtCategorias tbody td,
+#dtAutores tbody td {
+    background-color: #1F212C !important;
+    color: #ffffff !important;
+    border: 1px solid #d4af37 !important;
+}
+
+#dtCategorias.table-striped > tbody > tr:nth-of-type(odd),
+#dtAutores.table-striped > tbody > tr:nth-of-type(odd),
+#dtCategorias.table-striped > tbody > tr:nth-of-type(even),
+#dtAutores.table-striped > tbody > tr:nth-of-type(even) {
+    background-color: #1F212C !important;
+}
+
+#dtCategorias tbody tr:hover,
+#dtAutores tbody tr:hover {
+    background-color: rgba(241,196,15,0.25) !important;
+}
+
+#ACategorias .btn-warning,
+#AAutores .btn-warning {
+    background-color: #f1c40f !important;
+    color: #000 !important;
+}
+
+
+#dtERLibro td, 
+#dtERLibro th {
+    background-color: #1A1C25 !important;  
+    color: white !important;
+    border: 1px solid #d4af37 !important;
+    vertical-align: middle !important;
+    padding: 6px !important;
+}
+
+#dtERLibro .img-tabla {
+    width: 70px !important;
+    height: auto !important;
+    border-radius: 4px !important;
+}
+
+#dtERLibro tbody tr {
+    height: auto !important;
+    background-color: #1F212C !important;
+}
+
+#dtERLibro tbody tr:hover {
+    background-color: rgba(241,196,15,0.18) !important;
+}
+
+#dtERLibro thead th {
+    background-color: #f1c40f !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+#dtERLibro {
+    border-collapse: collapse !important;
+}
